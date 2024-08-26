@@ -48,7 +48,7 @@ def run():  # 애플리케이션 실행 함수 정의
         return pd.read_pickle(model_path)  # 저장된 선형 회귀 모델 파일을 불러옴
 
     # 데이터 로드 및 모델 로드
-    df = load_data("Ecommerce_Customers.csv")  # 예시 데이터 로드
+    df = load_data("test-master/Ecommerce_Customers.csv")  # 예시 데이터 로드
     model = load_linear_regression_model(
         "linear_regression_yearly_spent_predictor_v1.pkl")  # 저장된 선형 회귀 모델 로드
 
